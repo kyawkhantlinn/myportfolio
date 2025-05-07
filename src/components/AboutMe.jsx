@@ -20,7 +20,7 @@ const AboutMe = ()=>{
 
                 <h2 className="text-4xl text-white font-bold text-center font-serif pb-6">About Me</h2>
 
-                <div className="flex flex-col xl:flex-row justify-center items-center text-center xl:text-left space-y-8 xl:space-x-6 py-6">
+                <div className="flex flex-col xl:flex-row justify-center items-center text-center xl:text-left space-y-10 xl:space-x-6 pt-6">
 
                     {inView1 && <AboutMeText />}
 

@@ -11,11 +11,11 @@ const NavBar = ()=>{
         setBurgerState(!burgerState);
     }
 
-    console.log(burgerState);
+    // console.log(burgerState);
 
     return (
         <nav className="bg-gradient-to-b from-gray-900 to-sky-900">
-            <div className="container mx-auto text-white text-lg flex px-4 py-6">
+            <div className="container mx-auto text-white text-lg flex px-2 py-3 xl:px-4 xl:py-6">
 
                 <div className="w-full hidden xl:flex">
 
@@ -48,11 +48,11 @@ const NavBar = ()=>{
                 </div>
 
                 <div className="w-full xl:hidden text-white flex justify-between items-center px-6">
-                    <button type="button" className="cursor-pointer text-3xl" onClick={(e)=>burgerClick(e)}>
+                    <button type="button" className="cursor-pointer text-2xl" onClick={(e)=>burgerClick(e)}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
                     {/* {burgerState ? <MenuBar /> : <div></div>} */}
-                    <button type="button" className="bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</button>
+                    <button type="button" className="text-sm bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</button>
                 </div>
 
             </div>

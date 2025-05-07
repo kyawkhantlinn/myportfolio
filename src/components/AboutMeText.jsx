@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMeText = ()=>{
     return (
-        <div className="w-full xl:w-1/2 text-lg text-white space-y-4 xl:space-y-8">
+        <div className="w-full xl:w-1/2 xl:text-xl text-white space-y-5 xl:space-y-8">
 
             <div className="overflow-hidden relative">
                 <p>I'm a frontend developer based in Yangon.</p>
@@ -22,11 +22,6 @@ const AboutMeText = ()=>{
             <div className="overflow-hidden relative">
                 <p>Outside of coding, I love listening to music. It really helps me think.</p>
                 <div className="w-full h-full bg-gray-900 absolute left-0 top-0 about-text" style={{animationDelay:"1s"}}></div>
-            </div>
-                        
-            <div className="overflow-hidden relative">
-                <p>Right now, I’m looking for a full-time role to kick start my career as a developer.</p>
-                <div className="w-full h-full bg-gray-900 absolute left-0 top-0 about-text" style={{animationDelay:"1.5s"}}></div>
             </div>
         </div>
     );

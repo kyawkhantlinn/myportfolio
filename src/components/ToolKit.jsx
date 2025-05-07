@@ -23,90 +23,90 @@ const ToolKit = ()=>{
                     <p className="text-gray-300">These are the tools I currently use in my projects — and a few I'm actively exploring to level up my skills.</p>
                 </div>
 
-                <div className="flex justify-center items-center gap-x-4 gap-y-6 xl:gap-8 flex-wrap pt-6">
+                <div className="flex justify-center items-center gap-10 gap-y-16 xl:gap-x-8 flex-wrap pt-6">
                     
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-red-600 shadow-red-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={html} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">HTML</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">HTML</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-blue-400 shadow-blue-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={css} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">CSS</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">CSS</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col items-center space-y-4">
                         <div className="bg-yellow-500 shadow-yellow-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={js} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Javascript and ES6</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Javascript</p>
                     </div>
                     
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={bootstrap} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Bootstrap</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Bootstrap</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-teal-800 shadow-teal-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={tailwind} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">TailwindCSS</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">TailwindCSS</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-orange-600 shadow-orange-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={firebase} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Firebase</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Firebase</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={mysql} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">MySQL</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">MySQL</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={reactjs} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Reactjs</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Reactjs</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-violet-900 shadow-violet-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={vite} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Vite</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Vite</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={github} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Git & GitHub</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">GitHub</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={ts} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Typescript</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Typescript</p>
                     </div>
 
-                    <div className="w-[45%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
+                    <div className="w-[25%] xl:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
                             <img src={[python]} width="100px" />
                         </div>
-                        <p className="text-white text-center text-2xl font-semibold">Python</p>
+                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Python</p>
                     </div>
                     
                 </div>
