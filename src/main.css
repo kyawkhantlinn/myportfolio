@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+.avatar{
+    animation: avatar-ani 1s linear;
+}
+
+.intro{
+    animation: intro-ani 1s linear;
+}
+
+.vscode{
+    animation: vscode-ani 1s ease-out;
+}
+
+.about-text{
+    animation: about-text-ani 1.5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes avatar-ani {
+    from{
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes intro-ani {
+    from{
+        transform: translateX(400px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes vscode-ani{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes about-text-ani {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
