@@ -11,7 +11,7 @@ const AboutMe = ()=>{
     });
 
     const { ref:ref2, inView:inView2 } = useInView({
-        threshold: 0
+        threshold: .4
     });
 
     return (
@@ -20,11 +20,11 @@ const AboutMe = ()=>{
 
                 <h2 className="text-4xl text-white font-bold text-center font-serif pb-6">About Me</h2>
 
-                <div className="flex flex-col xl:flex-row justify-center items-center text-center xl:text-left space-y-10 xl:space-x-6 pt-6">
+                <div className="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left space-y-10 lg:space-y-0 lg:space-x-16 pt-6">
 
                     {inView1 && <AboutMeText />}
 
-                    {inView2 && <div className="w-11/12 xl:block xl:w-1/2 rounded-xl overflow-hidden relative vscode">
+                    {inView2 && <div className="w-11/12 xl:block lg:w-1/2 relative vscode">
                         <img src={vscode} />
                     </div>}
 

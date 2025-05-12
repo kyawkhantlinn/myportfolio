@@ -2,29 +2,28 @@ import React,{useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
+import BurgerMenu from "./BurgerMenu";
+
 const NavBar = ()=>{
 
     const [burgerState,setBurgerState] = useState(false);
 
-    const burgerClick = (e)=>{
-        e.target.closest("button").classList.toggle("hidden");
+    const burgerClick = ()=>{
         setBurgerState(!burgerState);
     }
 
-    // console.log(burgerState);
-
     return (
         <nav className="bg-gradient-to-b from-gray-900 to-sky-900">
-            <div className="container mx-auto text-white text-lg flex px-2 py-3 xl:px-4 xl:py-6">
+            <div className="text-white text-lg flex px-2 py-3 sm:px-4 sm:py-6">
 
-                <div className="w-full hidden xl:flex">
+                <div className="w-full hidden md:flex">
 
-                    <div className="w-2/5"></div>
+                    <div className="w-1/5 xl:w-2/5"></div>
 
-                    <ul className="w-3/5 flex justify-around items-center">
+                    <ul className="w-4/5 xl:w-3/5 flex justify-around items-center">
 
-                        <li href="#home" className="cursor-pointer hover:-translate-y-0.5 transition duration-200">
-                            <a className="border-2 border-transparent hover:border-sky-500 rounded-md transition duration-200 px-3 py-2">Home</a>
+                        <li className="cursor-pointer hover:-translate-y-0.5 transition duration-200">
+                            <a href="#home" className="border-2 border-transparent hover:border-sky-500 rounded-md transition duration-200 px-3 py-2">Home</a>
                         </li>
                         
                         <li className="cursor-pointer hover:-translate-y-0.5 transition duration-200">
@@ -47,12 +46,16 @@ const NavBar = ()=>{
 
                 </div>
 
-                <div className="w-full xl:hidden text-white flex justify-between items-center px-6">
-                    <button type="button" className="cursor-pointer text-2xl" onClick={(e)=>burgerClick(e)}>
-                        <FontAwesomeIcon icon={faBars} />
-                    </button>
-                    {/* {burgerState ? <MenuBar /> : <div></div>} */}
-                    <button type="button" className="text-sm bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</button>
+                <div className="w-full md:hidden text-white flex justify-between items-center px-6">
+                    <div>
+                        <button type="button" className="cursor-pointer text-2xl hover:text-gray-300" onClick={()=>burgerClick()}>
+                            {burgerState === false &&  <FontAwesomeIcon icon={faBars} />}
+                        </button>
+                        {burgerState === true && <BurgerMenu setter={burgerClick} />}
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <button type="button" className="text-sm bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</button>
+                    </div>
                 </div>
 
             </div>

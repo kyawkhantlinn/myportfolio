@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMeText = ()=>{
     return (
-        <div className="w-full xl:w-1/2 xl:text-xl text-white space-y-5 xl:space-y-8">
+        <div className="w-full lg:w-1/2 lg:text-lg xl:text-xl text-white space-y-6 lg:space-y-10">
 
             <div className="overflow-hidden relative">
                 <p>I'm a frontend developer based in Yangon.</p>
