@@ -11,7 +11,7 @@ const AboutMe = ()=>{
     });
 
     const { ref:ref2, inView:inView2 } = useInView({
-        threshold: .4
+        threshold: 0
     });
 
     return (

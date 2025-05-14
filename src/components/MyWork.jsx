@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+
 import bg from "./../assets/techbg5.jpg";
 import vscode from "./../assets/vscode.png";
-
-import tailwind from "./../assets/tailwind.png";
-import firebase from "./../assets/firebase.png";
-import vite from "./../assets/vite.png";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
+import MyWorkCard from "./MyWorkCard";
+import datas from "./../assets/datas.json"
 import MyWordCard from "./MyWorkCard";
 
 const MyWork = ()=>{
+
+    const [dataState,getDataState] = useState("1");
+
     return (
         <section id="mywork" style={{backgroundImage:`url(${bg})`,backgroundSize:"cover",backgroundPosition:"center",backgroundAttachment:"fixed"}}>
             <div className="px-4 py-12" style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
@@ -21,14 +24,14 @@ const MyWork = ()=>{
                     <p className="text-gray-300">Here are some of the projects I’ve worked on — from small experiments to fully responsive websites.</p>
                 </div>
 
-                <div className="flex justify-center items-center">
-                    
-                    <div className="w-1/2 flex flex-wrap justify-evenly space-y-12 py-8">
+                <div className="flex flex-col lg:flex-row justify-center items-center">
 
-                        <MyWordCard />
-                        <MyWordCard />
-                        <MyWordCard />
-
+                    <div className="lg:w-1/2 flex flex-wrap justify-evenly py-8">
+                        {datas.map((data,idx)=>(
+                            <div className="w-full md:w-1/2 xl:w-2/5 flex justify-center items-center" key={idx}>
+                                <MyWordCard state={dataState} handler={getDataState} serial={data.serial} title={data.title} techstack={data.techstack} />
+                            </div>
+                        ))}
                     </div>
 
                     <div className="w-1/2 flex justify-center items-center">
