@@ -24,9 +24,9 @@ const AboutMe = ()=>{
 
                     {inView1 && <AboutMeText />}
 
-                    {inView2 && <div className="w-11/12 xl:block lg:w-1/2 relative vscode">
+                    <div className={`w-11/12 xl:block lg:w-1/2 relative ${inView2 ? "vscode" : null}`}>
                         <img src={vscode} />
-                    </div>}
+                    </div>
 
                 </div>
 

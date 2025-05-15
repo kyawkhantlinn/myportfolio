@@ -4,9 +4,10 @@
         "title":"Blue Crescent Chatroom",
         "techstack":["Tailwind","Firebase","Vite"],
         "thumbnail":"",
-        "caption":"A real-time chat app for instant, seamless conversations — fast, simple, and always live.",
+        "caption":"A clean, real-time chat app built for fast and responsive messaging. Minimal design, instant updates, and smooth performance.",
         "websitelink":"https://bluecrescentchatroom.vercel.app",
-        "githublink":"https://github.com/kyawkhantlinn/bluecrescentchatroom"
+        "githublink":"https://github.com/kyawkhantlinn/bluecrescentchatroom",
+        "gif":"./gifs/landingpage.gif"
     },
     {
         "serial":"2",
@@ -15,6 +16,7 @@
         "thumbnail":"",
         "caption":"A modern, responsive landing page designed to showcase a product with clean layout and smooth animations",
         "websitelink":"https://kyawkhantlinn.github.io/planncoproject",
-        "githublink":"https://github.com/kyawkhantlinn/planncoproject"
+        "githublink":"https://github.com/kyawkhantlinn/planncoproject",
+        "gif":"./gifs/landingpage.gif"
     }
 ]

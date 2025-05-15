@@ -43,12 +43,6 @@ const MyWordCard = ({state,handler,serial,title,techstack})=>{
             )}
         </div>
 
-        
-        
-        
-
-        
-
     );
 }
 

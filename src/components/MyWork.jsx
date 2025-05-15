@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import bg from "./../assets/bgs/techbg5.jpg";
-import landingpagegif from "./../assets/gifs/landingpage.gif";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +15,7 @@ const MyWork = ()=>{
     const [dataState,getDataState] = useState("1");
 
     const displaydata = datas.filter(data=>data.serial === dataState);
-    console.log(displaydata);
+    // console.log(displaydata);
 
     return (
         <section id="mywork" style={{backgroundImage:`url(${bg})`,backgroundSize:"cover",backgroundPosition:"center",backgroundAttachment:"fixed"}}>
@@ -41,17 +40,17 @@ const MyWork = ()=>{
 
                         <div className="w-3/4 space-y-4 py-6">
                             <div className="relative overflow-hidden group">
-                                <img src={landingpagegif} className="rounded-xl"/>
+                                <img src={displaydata[0].gif} className="rounded"/>
                                 <div className="w-full h-1/6 text-white flex justify-around items-center absolute left-0 bottom-0 translate-y-13 group-hover:translate-y-0 transition duration-300" style={{backgroundColor:"rgba(0,0,0,0.5)"}}>
                                     <a href={displaydata[0].websitelink} target="_blank" className="hover:text-blue-500">Click to Visit <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     <a href={displaydata[0].githublink} target="_blank" className="hover:text-blue-500">GitHub Repo <FontAwesomeIcon icon={faGithub} /></a>
                                 </div>
                             </div>
-                            <div className="mt-4">
+                            <div className="mt-8">
                                 <h2  className="text-white text-center font-semibold text-xl">{displaydata[0].title}</h2>
                                 <ul className="text-gray-300 list-disc space-y-3 pt-5">
-                                    <li>{displaydata[0].caption}</li>
-                                    <li><b>Tech Stack</b> : <span>{displaydata[0].techstack.join(" , ")}</span></li>
+                                    <li className="font-semibold">{displaydata[0].caption}</li>
+                                    <li><span className="font-semibold">Tech Stack</span> : <span>{displaydata[0].techstack.join(" , ")}</span></li>
                                     <li><a href={displaydata[0].websitelink} target="_blank" className="hover:text-blue-500">Click to Visit <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a></li>
                                     <li><a href={displaydata[0].githublink} target="_blank" className="hover:text-blue-500">GitHub Repo <FontAwesomeIcon icon={faGithub} /></a></li>
                                 </ul>

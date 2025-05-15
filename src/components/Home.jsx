@@ -7,7 +7,7 @@ const Home = ()=>{
     return (
         <section id="home" style={{backgroundImage:`url(${bg})`,backgroundSize:"cover",backgroundPosition:"center",backgroundAttachment:"fixed"}}>
 
-            <div className="flex flex-col md:flex-row items-center px-4 py-20 overflow-x-hidden">
+            <div className="flex flex-col md:flex-row items-center px-4 pt-36 pb-20 overflow-x-hidden">
 
                 <div className="w-1/3 mx-auto avatar">
                     <img src={avatar} />
