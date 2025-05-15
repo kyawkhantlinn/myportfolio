@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import bg from "./../assets/techbg5.jpg";
+import bg from "./../assets/bgs/techbg5.jpg";
 import landingpagegif from "./../assets/gifs/landingpage.gif";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "./../assets/profile.png"
-import bg from "./../assets/techbg6.jpg"
+import bg from "./../assets/bgs/techbg6.jpg"
 
 const Home = ()=>{
 

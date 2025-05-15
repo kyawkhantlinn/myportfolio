@@ -1,17 +1,17 @@
 import React from "react";
 
-import HTML from "./../assets/HTML.png";
-import CSS from "./../assets/CSS.png";
-import JavaScript from "./../assets/JavaScript.png";
-import Bootstrap from "./../assets/Bootstrap.png";
-import Tailwind from "./../assets/Tailwind.png";
-import Firebase from "./../assets/Firebase.png";
-import MySql from "./../assets/MySql.png";
-import Reactjs from "./../assets/Reactjs.png";
-import Vite from "./../assets/Vite.png";
-import Github from "./../assets/Github.png";
-import TypeScript from "./../assets/TypeScript.png";
-import Python from "./../assets/Python.png";
+import HTML from "./../assets/images/HTML.png";
+import CSS from "./../assets/images/CSS.png";
+import JavaScript from "./../assets/images/JavaScript.png";
+import Bootstrap from "./../assets/images/Bootstrap.png";
+import Tailwind from "./../assets/images/Tailwind.png";
+import Firebase from "./../assets/images/Firebase.png";
+import MySql from "./../assets/images/MySql.png";
+import Reactjs from "./../assets/images/Reactjs.png";
+import Vite from "./../assets/images/Vite.png";
+import Github from "./../assets/images/Github.png";
+import TypeScript from "./../assets/images/TypeScript.png";
+import Python from "./../assets/images/Python.png";
 
 
 const ToolKit = ()=>{
