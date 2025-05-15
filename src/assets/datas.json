@@ -2,7 +2,7 @@
     {
         "serial":"1",
         "title":"Blue Crescent Chatroom",
-        "techstack":["tailwind","firebase","vite"],
+        "techstack":["Tailwind","Firebase","Vite"],
         "thumbnail":"",
         "caption":"A real-time chat app for instant, seamless conversations — fast, simple, and always live.",
         "websitelink":"https://bluecrescentchatroom.vercel.app",
@@ -11,7 +11,7 @@
     {
         "serial":"2",
         "title":"Landing Page",
-        "techstack":["html","bootstrap","js"],
+        "techstack":["HTML","Bootstrap","JavaScript"],
         "thumbnail":"",
         "caption":"A modern, responsive landing page designed to showcase a product with clean layout and smooth animations",
         "websitelink":"https://kyawkhantlinn.github.io/planncoproject",

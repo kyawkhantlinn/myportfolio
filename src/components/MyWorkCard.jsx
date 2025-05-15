@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 
-import html from "./../assets/html.png";
-import css from "./../assets/css.png";
-import js from "./../assets/js.png";
-import bootstrap from "./../assets/bootstrap.png";
-import tailwind from "./../assets/tailwind.png";
-import firebase from "./../assets/firebase.png";
-import mysql from "./../assets/mysql.png";
-import reactjs from "./../assets/reactjs.png";
-import vite from "./../assets/vite.png";
-import github from "./../assets/github.png";
-import ts from "./../assets/ts.png";
-import python from "./../assets/python.png";
+import HTML from "./../assets/HTML.png";
+import CSS from "./../assets/CSS.png";
+import JavaScript from "./../assets/JavaScript.png";
+import Bootstrap from "./../assets/Bootstrap.png";
+import Tailwind from "./../assets/Tailwind.png";
+import Firebase from "./../assets/Firebase.png";
+import MySql from "./../assets/MySql.png";
+import Reactjs from "./../assets/Reactjs.png";
+import Vite from "./../assets/Vite.png";
+import Github from "./../assets/Github.png";
+import TypeScript from "./../assets/TypeScript.png";
+import Python from "./../assets/Python.png";
 
 const MyWordCard = ({state,handler,serial,title,techstack})=>{
 
-    const images = {html,css,js,bootstrap,tailwind,firebase,mysql,reactjs,vite,github,ts,python};
+    const images = {HTML,CSS,JavaScript,Bootstrap,Tailwind,Firebase,MySql,Reactjs,Vite,Github,TypeScript,Python};
 
     return (
 
