@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import bg from "./../assets/techbg5.jpg";
-// import landingpage from "./landingpage.gif";
+import landingpagegif from "./../assets/gifs/landingpage.gif";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
@@ -41,7 +41,7 @@ const MyWork = ()=>{
 
                         <div className="w-3/4 space-y-4 py-6">
                             <div className="relative overflow-hidden group">
-                                <img src="./landingpage.gif" className="rounded-xl"/>
+                                <img src={landingpagegif} className="rounded-xl"/>
                                 <div className="w-full h-1/6 text-white flex justify-around items-center absolute left-0 bottom-0 translate-y-13 group-hover:translate-y-0 transition duration-300" style={{backgroundColor:"rgba(0,0,0,0.5)"}}>
                                     <a href={displaydata[0].websitelink} target="_blank" className="hover:text-blue-500">Click to Visit <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                                     <a href={displaydata[0].githublink} target="_blank" className="hover:text-blue-500">GitHub Repo <FontAwesomeIcon icon={faGithub} /></a>
