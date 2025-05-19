@@ -1,13 +1,13 @@
 import React from "react";
 import avatar from "./../assets/profile.png"
-import bg from "./../assets/bgs/techbg6.jpg"
+import bg from "./../assets/bgs/bg1.jpg"
 
 const Home = ()=>{
 
     return (
         <section id="home" style={{backgroundImage:`url(${bg})`,backgroundSize:"cover",backgroundPosition:"center",backgroundAttachment:"fixed"}}>
 
-            <div className="flex flex-col md:flex-row items-center px-4 pt-36 pb-20 overflow-x-hidden">
+            <div className="flex flex-col md:flex-row items-center px-4 pt-36 pb-20 overflow-x-hidden" style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
 
                 <div className="w-1/3 mx-auto avatar">
                     <img src={avatar} />

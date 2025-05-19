@@ -6,6 +6,7 @@ import Home from './components/Home.jsx';
 import AboutMe from "./components/AboutMe.jsx";
 import Toolkit from './components/ToolKit.jsx';
 import MyWork from './components/MyWork.jsx';
+import ContactMe from './components/ContactMe.jsx';
 
 createRoot(document.getElementById('root')).render(
   <div>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <AboutMe />
     <Toolkit />
     <MyWork />
+    <ContactMe />
   </div>,
 )

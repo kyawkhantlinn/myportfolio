@@ -40,7 +40,7 @@ const NavBar = ()=>{
                             </li>
 
                             <li className="cursor-pointer hover:-translate-y-0.5 transition duration-200">
-                                <a className="bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded px-3 py-2">Contact Me</a>
+                                <a href="#contactme" className="bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded px-3 py-2">Contact Me</a>
                             </li>
 
                         </ul>
@@ -55,7 +55,7 @@ const NavBar = ()=>{
                             {burgerState === true && <BurgerMenu setter={burgerClick} />}
                         </div>
                         <div className="flex justify-center items-center">
-                            <button type="button" className="text-sm bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</button>
+                            <a href="#contactme" className="text-sm bg-gradient-to-br from-teal-600 to-sky-400 hover:bg-gradient-to-b rounded cursor-pointer px-3 py-2">Contact Me</a>
                         </div>
                     </div>
 

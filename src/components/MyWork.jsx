@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import bg from "./../assets/bgs/techbg5.jpg";
+import bg from "./../assets/bgs/bg3.jpg";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
