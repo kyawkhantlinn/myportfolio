@@ -1,5 +1,6 @@
 import React from "react";
 import ContactForm from "./ContactForm";
+import contactgif from "./../assets/contactme.gif";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookMessenger,faTelegram,faViber } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +35,7 @@ const ContactMe = ()=>{
                     </div>
 
                     <div className="hidden lg:flex w-1/2 justify-center items-center">
-                        <img src="./public/gifs/contactme2.gif" width="600" />
+                        <img src={contactgif} width="600" />
                     </div>
                 </div>
 
