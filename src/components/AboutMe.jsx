@@ -6,17 +6,17 @@ import vscode from "./../assets/vscode.png";
 const AboutMe = ()=>{
 
     const { ref:ref1, inView:inView1 } = useInView({
-        threshold: 0.5,
+        threshold: 0.3,
         triggerOnce: true
     });
 
     const { ref:ref2, inView:inView2 } = useInView({
-        threshold: 0.5
+        threshold: 0.3
     });
 
     return (
         <section id="aboutme" className="bg-gray-900" ref={ref1}>
-            <div className="container mx-auto px-4 py-12" ref={ref2}>
+            <div className="container mx-auto px-4 py-28" ref={ref2}>
 
                 <h2 className="text-4xl text-white font-bold text-center font-serif pb-6">About Me</h2>
 

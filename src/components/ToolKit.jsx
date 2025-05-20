@@ -17,7 +17,7 @@ import Python from "./../assets/images/Python.png";
 const ToolKit = ()=>{
     return (
         <section id="toolkit" className="bg-rose-900">
-            <div className="container mx-auto px-4 py-12">
+            <div className="container mx-auto px-4 py-28">
 
                 <div className="text-center pb-6">
                     <h2 className="text-4xl text-white font-bold font-serif pb-4">My Toolkit</h2>

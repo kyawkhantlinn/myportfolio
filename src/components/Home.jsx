@@ -13,7 +13,7 @@ const Home = ()=>{
                     <img src={avatar} />
                 </div>
                 <div className="w-full md:w-1/2 space-y-10 mx-auto py-6 intro">
-                    <h1 className="xl:text-4xl text-3xl text-white text-center font-bold">Hi. I'm Kyaw Khant Linn. 👋</h1>
+                    <h1 className="xl:text-4xl text-3xl text-white text-center font-bold">Hi! I'm Kyaw Khant Linn. 👋</h1>
                     <p className="lg:text-xl text-center text-gray-200">I’m a frontend developer with a keen eye for detail and a strong focus on user experience. I care about performance, accessibility, and writing clean, maintainable code. My go-to stack includes <span className="text-blue-400 font-bold">React</span>, <span className="text-blue-400 font-bold">Tailwind CSS</span>, and a sprinkle of animation magic.</p>
                 </div>
 

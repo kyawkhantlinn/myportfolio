@@ -19,7 +19,7 @@ const MyWork = ()=>{
 
     return (
         <section id="mywork" style={{backgroundImage:`url(${bg})`,backgroundSize:"cover",backgroundPosition:"center",backgroundAttachment:"fixed"}}>
-            <div className="px-4 py-12" style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
+            <div className="px-4 py-28" style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
 
                 <div className="text-center pb-6">
                     <h2 className="text-4xl text-white font-bold font-serif pb-4">My Work</h2>
