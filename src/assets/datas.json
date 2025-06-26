@@ -2,21 +2,44 @@
     {
         "serial":"1",
         "title":"Blue Crescent Chatroom",
-        "techstack":["Tailwind","Firebase","Vite"],
-        "thumbnail":"",
-        "caption":"A clean, real-time chat app built for fast and responsive messaging. Minimal design, instant updates, and smooth performance.",
-        "websitelink":"https://bluecrescentchatroom.vercel.app",
-        "githublink":"https://github.com/kyawkhantlinn/bluecrescentchatroom",
-        "gif":"./gifs/landingpage.gif"
+        "techstack":[
+            ["./images/tailwind.png","tailwind"],
+            ["./images/js.png","js"],
+            ["./images/firebase.png","firebase"],
+            ["./images/vite.png","vite"]
+        ],
+        "thumbnail":"./images/chatroom.png",
+        "caption":"Simple chat app with user authentication and live messaging",
+        "websitelink":"https://publicchatroom.vercel.app",
+        "githublink":"https://github.com/kyawkhantlinn/publicchatroom",
+        "color":"red"
     },
     {
         "serial":"2",
         "title":"Landing Page",
-        "techstack":["HTML","Bootstrap","JavaScript"],
-        "thumbnail":"",
-        "caption":"A modern, responsive landing page designed to showcase a product with clean layout and smooth animations",
+        "techstack":[
+            ["./images/html.png","html"],
+            ["./images/bootstrap.png","bootstrap"],
+            ["./images/js.png","js"]
+        ],
+        "thumbnail":"./images/plannco.png",
+        "caption":"A modern, responsive landing page clean layout and smooth animations",
         "websitelink":"https://kyawkhantlinn.github.io/planncoproject",
         "githublink":"https://github.com/kyawkhantlinn/planncoproject",
-        "gif":"./gifs/landingpage.gif"
+        "color":"green"
+    },
+    {
+        "serial":"3",
+        "title":"Weather App",
+        "techstack":[
+            ["./images/html.png","html"],
+            ["./images/bootstrap.png","bootstrap"],
+            ["./images/js.png","js"]
+        ],
+        "thumbnail":"./images/weatherapp.png",
+        "caption":"Small weather app with city search and 5-day forecast",
+        "websitelink":"https://kyawkhantlinn.github.io/weatherapp",
+        "githublink":"https://github.com/kyawkhantlinn/weatherapp",
+        "color":"blue"
     }
 ]

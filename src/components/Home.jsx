@@ -10,7 +10,7 @@ const Home = ()=>{
             <div className="flex flex-col md:flex-row items-center px-4 pt-36 pb-20 overflow-x-hidden" style={{backgroundColor:"rgba(0,0,0,0.3)"}}>
 
                 <div className="w-1/3 mx-auto avatar">
-                    <img src={avatar} />
+                    <img src={avatar} alt="avatar" />
                 </div>
                 <div className="w-full md:w-1/2 space-y-10 mx-auto py-6 intro">
                     <h1 className="xl:text-4xl text-3xl text-white text-center font-bold">Hi! I'm Kyaw Khant Linn. 👋</h1>

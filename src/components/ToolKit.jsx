@@ -1,17 +1,17 @@
 import React from "react";
 
-import HTML from "./../assets/images/HTML.png";
-import CSS from "./../assets/images/CSS.png";
-import JavaScript from "./../assets/images/JavaScript.png";
-import Bootstrap from "./../assets/images/Bootstrap.png";
-import Tailwind from "./../assets/images/Tailwind.png";
-import Firebase from "./../assets/images/Firebase.png";
-import MySql from "./../assets/images/MySql.png";
-import Reactjs from "./../assets/images/Reactjs.png";
-import Vite from "./../assets/images/Vite.png";
-import Github from "./../assets/images/Github.png";
-import TypeScript from "./../assets/images/TypeScript.png";
-import Python from "./../assets/images/Python.png";
+// import HTML from "./../assets/images/HTML.png";
+// import CSS from "./../assets/images/CSS.png";
+// import JavaScript from "./../assets/images/JavaScript.png";
+// import Bootstrap from "./../assets/images/Bootstrap.png";
+// import Tailwind from "./../assets/images/Tailwind.png";
+// import Firebase from "./../assets/images/Firebase.png";
+// import MySql from "./../assets/images/MySql.png";
+// import Reactjs from "./../assets/images/Reactjs.png";
+// import Vite from "./../assets/images/Vite.png";
+// import Github from "./../assets/images/Github.png";
+// import TypeScript from "./../assets/images/TypeScript.png";
+// import Python from "./../assets/images/Python.png";
 
 
 const ToolKit = ()=>{
@@ -24,93 +24,93 @@ const ToolKit = ()=>{
                     <p className="text-gray-300">These are the tools I currently use in my projects — and a few I'm actively exploring to level up my skills.</p>
                 </div>
 
-                <div className="flex justify-center items-center gap-10 gap-y-16 xl:gap-x-8 flex-wrap pt-6">
+                {/* <div className="flex justify-center items-center gap-10 gap-y-16 xl:gap-x-8 flex-wrap mt-12">
                     
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-red-600 shadow-red-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={HTML} width="100px" />
+                            <img src={HTML} alt="HTML" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">HTML</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-blue-400 shadow-blue-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={CSS} width="100px" />
+                            <img src={CSS} alt="CSS" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">CSS</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col items-center space-y-4">
                         <div className="bg-yellow-500 shadow-yellow-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={JavaScript} width="100px" />
+                            <img src={JavaScript} alt="JavaScript" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Javascript</p>
                     </div>
                     
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Bootstrap} width="100px" />
+                            <img src={Bootstrap} alt="Bootstrap" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Bootstrap</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-teal-800 shadow-teal-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Tailwind} width="100px" />
+                            <img src={Tailwind} alt="Tailwind" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">TailwindCSS</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-orange-600 shadow-orange-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Firebase} width="100px" />
+                            <img src={Firebase} alt="Firebase" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Firebase</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={MySql} width="100px" />
+                            <img src={MySql} alt="MySql" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">MySQL</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Reactjs} width="100px" />
+                            <img src={Reactjs} alt="Reactjs" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Reactjs</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-violet-900 shadow-violet-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Vite} width="100px" />
+                            <img src={Vite} alt="Vite" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Vite</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Github} width="100px" />
+                            <img src={Github} alt="Github" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">GitHub</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={TypeScript} width="100px" />
+                            <img src={TypeScript} alt="TypeScript" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Typescript</p>
                     </div>
 
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={Python} width="100px" />
+                            <img src={Python} alt="Python" width="100px" />
                         </div>
                         <p className="text-white text-center text-lg xl:text-2xl font-semibold">Python</p>
                     </div>
                     
-                </div>
+                </div> */}
 
             </div>
         </section>
