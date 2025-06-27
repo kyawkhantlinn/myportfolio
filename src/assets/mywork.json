@@ -18,7 +18,7 @@
         "serial":"2",
         "title":"Landing Page",
         "techstack":[
-            ["./images/html.png","html"],
+            ["./images/html.svg","html"],
             ["./images/bootstrap.png","bootstrap"],
             ["./images/js.png","js"]
         ],
@@ -32,7 +32,7 @@
         "serial":"3",
         "title":"Weather App",
         "techstack":[
-            ["./images/html.png","html"],
+            ["./images/html.svg","html"],
             ["./images/bootstrap.png","bootstrap"],
             ["./images/js.png","js"]
         ],
