@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import datas from "./../assets/datas.json"
+import datas from "./../assets/mywork.json"
 
 const MyWork = ()=>{
 
-    console.log(datas);
+    // console.log(datas);
 
     return (
         <section id="mywork" className="bg-gray-900">

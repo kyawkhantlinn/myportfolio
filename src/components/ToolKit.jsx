@@ -1,51 +1,23 @@
 import React from "react";
 
-// import HTML from "./../assets/images/HTML.png";
-// import CSS from "./../assets/images/CSS.png";
-// import JavaScript from "./../assets/images/JavaScript.png";
-// import Bootstrap from "./../assets/images/Bootstrap.png";
-// import Tailwind from "./../assets/images/Tailwind.png";
-// import Firebase from "./../assets/images/Firebase.png";
-// import MySql from "./../assets/images/MySql.png";
-// import Reactjs from "./../assets/images/Reactjs.png";
-// import Vite from "./../assets/images/Vite.png";
-// import Github from "./../assets/images/Github.png";
-// import TypeScript from "./../assets/images/TypeScript.png";
-// import Python from "./../assets/images/Python.png";
+import ToolkitCard from "./ToolkitCard";
+import datas from "./../assets/toolkit.json";
 
 
 const ToolKit = ()=>{
+
+    console.log(datas);
+
     return (
         <section id="toolkit" className="bg-rose-900">
             <div className="container mx-auto px-4 py-28">
 
-                <div className="text-center pb-6">
+                <div className="text-center mb-12">
                     <h2 className="text-4xl text-white font-bold font-serif pb-4">My Toolkit</h2>
                     <p className="text-gray-300">These are the tools I currently use in my projects — and a few I'm actively exploring to level up my skills.</p>
                 </div>
 
                 {/* <div className="flex justify-center items-center gap-10 gap-y-16 xl:gap-x-8 flex-wrap mt-12">
-                    
-                    <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
-                        <div className="bg-red-600 shadow-red-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={HTML} alt="HTML" width="100px" />
-                        </div>
-                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">HTML</p>
-                    </div>
-
-                    <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
-                        <div className="bg-blue-400 shadow-blue-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={CSS} alt="CSS" width="100px" />
-                        </div>
-                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">CSS</p>
-                    </div>
-
-                    <div className="w-[30%] md:w-[23%] flex flex-col items-center space-y-4">
-                        <div className="bg-yellow-500 shadow-yellow-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
-                            <img src={JavaScript} alt="JavaScript" width="100px" />
-                        </div>
-                        <p className="text-white text-center text-lg xl:text-2xl font-semibold">Javascript</p>
-                    </div>
                     
                     <div className="w-[30%] md:w-[23%] flex flex-col justify-center items-center space-y-4">
                         <div className="bg-gray-100 shadow-gray-600 rounded-full shadow-2xl hover:scale-110 transition duration-200 p-6">
@@ -111,6 +83,12 @@ const ToolKit = ()=>{
                     </div>
                     
                 </div> */}
+
+                <div className="flex flex-wrap justify-center items-center gap-8">
+
+                    {datas.map((data,idx)=> <ToolkitCard isLearning={data.isLearning} image={data.image} alt={data.alt} name={data.name} percent={data.percent} color={data.color} key={idx} /> )}
+
+                </div>
 
             </div>
         </section>
