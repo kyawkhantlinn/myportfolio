@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from '@formspree/react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function ContactForm() {
 
@@ -7,8 +8,8 @@ function ContactForm() {
 
     if (state.succeeded) {
         return (
-            <div className="py-6 pb-12 space-y-4">
-                <p className='text-xl text-center text-gray-800'>Email sent successfully!</p>
+            <div className="mb-4">
+                <DotLottieReact src="https://lottie.host/09f52617-ae23-4366-9639-8d8493da45de/tJsQwniWR7.lottie" autoplay />
                 <div className='flex justify-center items-center'>
                     <button className="text-white font-semibold bg-purple-600 hover:bg-purple-700 rounded-xl cursor-pointer px-6 py-3" onClick={reset}>Send another one</button>
                 </div>

@@ -20,7 +20,7 @@ const ContactMe = ()=>{
                     </div>
 
                     <div className="flex justify-evenly items-start pt-8">
-                        <div className="w-2/3 lg:w-1/3">
+                        <div className="w-11/12 md:w-2/3 lg:w-1/3">
                             <ContactForm />
                             <p className="text-center text-sm text-gray-400 py-6">or contact me via</p>
                             <div className="flex justify-center items-center py-4 pb-10">

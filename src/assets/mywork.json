@@ -10,8 +10,8 @@
         ],
         "thumbnail":"./images/chatroom.png",
         "caption":"Simple chat app with user authentication and live messaging",
-        "websitelink":"https://publicchatroom.vercel.app",
-        "githublink":"https://github.com/kyawkhantlinn/publicchatroom",
+        "website":"https://publicchatroom.vercel.app",
+        "github":"https://github.com/kyawkhantlinn/publicchatroom",
         "color":"red"
     },
     {
@@ -24,8 +24,8 @@
         ],
         "thumbnail":"./images/plannco.png",
         "caption":"A modern, responsive landing page clean layout and smooth animations",
-        "websitelink":"https://kyawkhantlinn.github.io/planncoproject",
-        "githublink":"https://github.com/kyawkhantlinn/planncoproject",
+        "website":"https://kyawkhantlinn.github.io/planncoproject",
+        "github":"https://github.com/kyawkhantlinn/planncoproject",
         "color":"green"
     },
     {
@@ -38,8 +38,8 @@
         ],
         "thumbnail":"./images/weatherapp.png",
         "caption":"Small weather app with city search and 5-day forecast",
-        "websitelink":"https://kyawkhantlinn.github.io/weatherapp",
-        "githublink":"https://github.com/kyawkhantlinn/weatherapp",
+        "website":"https://kyawkhantlinn.github.io/weatherapp",
+        "github":"https://github.com/kyawkhantlinn/weatherapp",
         "color":"blue"
     }
 ]

@@ -2,6 +2,9 @@ import React from "react";
 import avatar from "./../assets/profile.png"
 import bg from "./../assets/bgs/bg1.jpg"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub,faFacebook,faTelegram,faViber } from '@fortawesome/free-brands-svg-icons';
+
 const Home = ()=>{
 
     return (
@@ -12,9 +15,23 @@ const Home = ()=>{
                 <div className="w-1/3 mx-auto avatar">
                     <img src={avatar} alt="avatar" />
                 </div>
-                <div className="w-full md:w-1/2 space-y-10 mx-auto py-6 intro">
+
+                <div className="w-full md:w-1/2 space-y-10 flex flex-col justify-center items-center mx-auto py-6 intro">
+
                     <h1 className="xl:text-4xl text-3xl text-white text-center font-bold">Hi! I'm Kyaw Khant Linn. 👋</h1>
                     <p className="lg:text-xl text-center text-gray-200">I’m a frontend developer with a keen eye for detail and a strong focus on user experience. I care about performance, accessibility, and writing clean, maintainable code. My go-to stack includes <span className="text-blue-400 font-bold">React</span>, <span className="text-blue-400 font-bold">Tailwind CSS</span>, and a sprinkle of animation magic.</p>
+                    <ul className="w-2/3 lg:w-1/2 text-2xl text-gray-200 flex justify-around items-center">
+
+                        <li><a href="https://github.com/kyawkhantlinn" className="hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faGithub} /></a></li>
+                    
+                        <li><a href="https://www.facebook.com/profile.php?id=100051607762245&mibextid=ZbWKwL" className="hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                    
+                        <li><a href="https://t.me/AustinTheGoatxD" className="hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faTelegram} /></a></li>
+                    
+                        <li><a href="viber://chat?number=%2B959780319178" className="hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faViber} /></a></li>
+                                                                    
+                    </ul>
+                    
                 </div>
 
             </div>
