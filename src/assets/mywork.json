@@ -8,7 +8,7 @@
             ["./images/firebase.png","firebase"],
             ["./images/vite.png","vite"]
         ],
-        "thumbnail":"./images/chatroom.png",
+        "thumbnail":"./images/chatroom.webp",
         "caption":"Simple chat app with user authentication and live messaging",
         "website":"https://publicchatroom.vercel.app",
         "github":"https://github.com/kyawkhantlinn/publicchatroom",
@@ -22,7 +22,7 @@
             ["./images/bootstrap.png","bootstrap"],
             ["./images/js.png","js"]
         ],
-        "thumbnail":"./images/plannco.png",
+        "thumbnail":"./images/plannco.webp",
         "caption":"A modern, responsive landing page clean layout and smooth animations",
         "website":"https://kyawkhantlinn.github.io/planncoproject",
         "github":"https://github.com/kyawkhantlinn/planncoproject",
@@ -36,7 +36,7 @@
             ["./images/bootstrap.png","bootstrap"],
             ["./images/js.png","js"]
         ],
-        "thumbnail":"./images/weatherapp.png",
+        "thumbnail":"./images/weatherapp.webp",
         "caption":"Small weather app with city search and 5-day forecast",
         "website":"https://kyawkhantlinn.github.io/weatherapp",
         "github":"https://github.com/kyawkhantlinn/weatherapp",

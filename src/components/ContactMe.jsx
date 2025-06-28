@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 import contactme from "./../assets/contactme.svg";
-import bg from "./../assets/bgs/bg3.jpg";
+import bg from "./../assets/bgs/bg3.webp";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookMessenger,faTelegram,faViber } from '@fortawesome/free-brands-svg-icons';
@@ -26,13 +26,13 @@ const ContactMe = ()=>{
                             <div className="flex justify-center items-center py-4 pb-10">
                                 <ul className="w-4/5 md:w-1/2 flex justify-around items-center">
                                     <li>
-                                        <a href="https://m.me/austin.garrix.2025" target="_blank" className="text-2xl text-white bg-sky-500 rounded-full hover:bg-sky-600 px-3 py-2"><FontAwesomeIcon icon={faFacebookMessenger} /></a>
+                                        <a href="https://m.me/austin.garrix.2025" target="_blank" className="text-2xl text-white bg-sky-500 rounded-full hover:bg-sky-600 px-3 py-2" aria-label="messanger"><FontAwesomeIcon icon={faFacebookMessenger} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://t.me/AustinTheGoatxD" target="_blank" className="text-2xl text-white bg-teal-500 rounded-full hover:bg-teal-600 px-3 py-2"><FontAwesomeIcon icon={faTelegram} /></a>
+                                        <a href="https://t.me/AustinTheGoatxD" target="_blank" className="text-2xl text-white bg-teal-500 rounded-full hover:bg-teal-600 px-3 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a>
                                     </li>
                                     <li>
-                                        <a href="viber://chat?number=%2B959780319178" target="_blank" className="text-2xl text-white bg-purple-500 rounded-full hover:bg-purple-600 px-3 py-2"><FontAwesomeIcon icon={faViber} /></a>
+                                        <a href="viber://chat?number=%2B959780319178" target="_blank" className="text-2xl text-white bg-purple-500 rounded-full hover:bg-purple-600 px-3 py-2" aria-label="viber"><FontAwesomeIcon icon={faViber} /></a>
                                     </li>
                                 </ul>
                             </div>

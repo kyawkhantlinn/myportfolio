@@ -54,7 +54,7 @@ export default function MyWorkCard(props){
             </div>
                                     
             <div className={`w-full ${border} ${bordercolor} px-4`}>
-                <h4 className="text-white text-xl font-semibold text-center my-6">{title}</h4>
+                <h2 className="text-white text-xl font-semibold text-center my-6">{title}</h2>
                 <ul className="text-sm text-gray-200 space-y-3 mb-6">
                     <li>- {caption}</li>
                     <li className="flex">- Tech stack : 

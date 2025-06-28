@@ -30,13 +30,13 @@ const Footer = ()=>{
 
                     <ul className="w-1/2 lg:w-1/6 flex justify-around items-center">
 
-                        <li><a href="https://github.com/kyawkhantlinn" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faGithub} /></a></li>
+                        <li><a href="https://github.com/kyawkhantlinn" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="gitHub"><FontAwesomeIcon icon={faGithub} /></a></li>
 
-                        <li><a href="https://www.facebook.com/profile.php?id=100051607762245&mibextid=ZbWKwL" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100051607762245&mibextid=ZbWKwL" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="facebook"><FontAwesomeIcon icon={faFacebook} /></a></li>
 
-                        <li><a href="https://t.me/AustinTheGoatxD" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faTelegram} /></a></li>
+                        <li><a href="https://t.me/AustinTheGoatxD" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a></li>
 
-                        <li><a href="viber://chat?number=%2B959780319178" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2"><FontAwesomeIcon icon={faViber} /></a></li>
+                        <li><a href="viber://chat?number=%2B959780319178" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="viber"><FontAwesomeIcon icon={faViber} /></a></li>
                                                 
                     </ul>
 
