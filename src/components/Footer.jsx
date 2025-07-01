@@ -34,7 +34,7 @@ const Footer = ()=>{
 
                         <li><a href="https://www.facebook.com/profile.php?id=100051607762245&mibextid=ZbWKwL" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="facebook"><FontAwesomeIcon icon={faFacebook} /></a></li>
 
-                        <li><a href="https://t.me/AustinTheGoatxD" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a></li>
+                        <li><a href="https://t.me/AustinShin_0701" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a></li>
 
                         <li><a href="viber://chat?number=%2B959780319178" className="text-2xl text-gray-300 hover:text-blue-500 transition duration-200 px-4 py-2" aria-label="viber"><FontAwesomeIcon icon={faViber} /></a></li>
                                                 

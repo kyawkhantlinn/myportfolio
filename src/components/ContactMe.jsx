@@ -29,7 +29,7 @@ const ContactMe = ()=>{
                                         <a href="https://m.me/austin.garrix.2025" target="_blank" className="text-2xl text-white bg-sky-500 rounded-full hover:bg-sky-600 px-3 py-2" aria-label="messanger"><FontAwesomeIcon icon={faFacebookMessenger} /></a>
                                     </li>
                                     <li>
-                                        <a href="https://t.me/AustinTheGoatxD" target="_blank" className="text-2xl text-white bg-teal-500 rounded-full hover:bg-teal-600 px-3 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a>
+                                        <a href="https://t.me/AustinShin_0701" target="_blank" className="text-2xl text-white bg-teal-500 rounded-full hover:bg-teal-600 px-3 py-2" aria-label="telegram"><FontAwesomeIcon icon={faTelegram} /></a>
                                     </li>
                                     <li>
                                         <a href="viber://chat?number=%2B959780319178" target="_blank" className="text-2xl text-white bg-purple-500 rounded-full hover:bg-purple-600 px-3 py-2" aria-label="viber"><FontAwesomeIcon icon={faViber} /></a>
