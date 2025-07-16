@@ -38,7 +38,7 @@ export default function ToolkitCard(props){
             bg = "bg-gray-300";
             break;
         case "green":
-            hover = "group-hover:shadow-gray-700";
+            hover = "group-hover:shadow-green-700";
             bg = "bg-green-600";
             break;
     }
