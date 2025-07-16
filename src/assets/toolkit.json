@@ -40,22 +40,6 @@
         "color":"cyan"
     },
     {
-        "isLearning":true,
-        "image":"./images/react.svg",
-        "alt":"react",
-        "name":"ReactJS",
-        "percent":60,
-        "color":"sky"
-    },
-    {
-        "isLearning":true,
-        "image":"./images/ts.png",
-        "alt":"ts",
-        "name":"TypeScript",
-        "percent":30,
-        "color":"sky"
-    },
-    {
         "isLearning":false,
         "image":"./images/vite.png",
         "alt":"vite",
@@ -80,19 +64,43 @@
         "color":"cyan"
     },
     {
-        "isLearning":true,
-        "image":"./images/python.png",
-        "alt":"python",
-        "name":"Python",
-        "percent":60,
-        "color":"yellow"
-    },
-    {
         "isLearning":false,
         "image":"./images/github.svg",
         "alt":"github",
         "name":"Github",
         "percent":60,
         "color":"white"
+    },
+    {
+        "isLearning":true,
+        "image":"./images/react.svg",
+        "alt":"react",
+        "name":"ReactJS",
+        "percent":60,
+        "color":"sky"
+    },
+    {
+        "isLearning":true,
+        "image":"./images/ts.png",
+        "alt":"ts",
+        "name":"TypeScript",
+        "percent":30,
+        "color":"sky"
+    },
+    {
+        "isLearning":true,
+        "image":"./images/nodejs.svg",
+        "alt":"nodejs",
+        "name":"Nodejs",
+        "percent":10,
+        "color":"green"
+    },
+    {
+        "isLearning":true,
+        "image":"./images/python.png",
+        "alt":"python",
+        "name":"Python",
+        "percent":50,
+        "color":"yellow"
     }
 ]

@@ -15,7 +15,7 @@ const AboutMeText = ()=>{
             </div>
 
             <div className="overflow-hidden relative">
-                <p>I’m currently exploring <span className="font-bold text-indigo-400">Typescript</span> and <span className="font-bold text-yellow-300">Python</span>, and I’m always learning something new.</p>
+                <p>I’m currently exploring <span className="font-bold text-indigo-400">Typescript</span> and <span className="font-bold text-green-600">Nodejs</span>, and I’m always learning something new.</p>
                 <div className="w-full h-full bg-gray-900 absolute left-0 top-0 about-text" style={{animationDelay:"0.5s"}}></div>
             </div>
 

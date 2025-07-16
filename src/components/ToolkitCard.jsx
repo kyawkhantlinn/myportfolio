@@ -37,15 +37,25 @@ export default function ToolkitCard(props){
             hover = "group-hover:shadow-gray-400";
             bg = "bg-gray-300";
             break;
+        case "green":
+            hover = "group-hover:shadow-gray-700";
+            bg = "bg-green-600";
+            break;
     }
 
     switch(percent){
+        case 10:
+            width = "w-[10%]";
+            break;
         case 30:
             width = "w-[30%]";
             break;
         case 45:
             width = "w-[45%]";
             break;
+        case 50:
+            width = "w-[50%]";
+            break;     
         case 55:
             width = "w-[55%]";
             break; 
